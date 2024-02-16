@@ -24,11 +24,12 @@ As an api consumer, given not existing github user, I would like to receive 404 
 
 # Running the app:
 
-1. Download .zip and extract the files
-2. Run `java -jar demo-0.0.1-SNAPSHOT.jar` full path: demo\build\libs\demo-0.0.1-SNAPSHOT.jar  
+1. Download the executable demo-0.0.1-SNAPSHOT.jar from build\libs\demo-0.0.1-SNAPSHOT.jar 
+2. Run `java -jar demo-0.0.1-SNAPSHOT.jar` from terminal
 3. You will be prompted to choose to authenticate the session (github token needed) or not
-4. You will then be prompted to input a username for the search (header: “Accept: application/json”)  is always the same so it is hardcoded)
+4. You will then be prompted to input a username for the search (header: “Accept: application/json”  is always the same so it is hardcoded)
 5. After getting the response you can try inputting another username or quit.
+6. Source code is in src\main\java\com\example\demo\DemoApplication.java 
 
 # Quirks:
 
