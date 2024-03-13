@@ -1,6 +1,6 @@
-# Spring boot 3 app for solving the following task:
+# CLI app for doing this
 
-As an api consumer, given username and header “Accept: application/json”, I would like to list all his github repositories, which are not forks. Information, which I require in the response, is:
+Given username, I would like to list all his github repositories, which are not forks. Information, which I require in the response, is:
 
 
 
@@ -12,7 +12,7 @@ As an api consumer, given username and header “Accept: application/json”, I 
 
 
 
-As an api consumer, given not existing github user, I would like to receive 404 response in such a format:
+Given not existing github user, I would like to receive 404 response in such a format:
 
 {
 
